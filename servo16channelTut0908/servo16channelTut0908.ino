@@ -118,19 +118,19 @@ void loop() {
   pwm.setPWM(2, 0, 287);
 
   //오른쪽 앞 다리
-  pwm.setPWM(3, 0, 287);
   pwm.setPWM(4, 0, 287);
   pwm.setPWM(5, 0, 287);
+  pwm.setPWM(6, 0, 287);
 
   //왼쪽 뒷 다리
-  pwm.setPWM(6, 0, 287);
-  pwm.setPWM(7, 0, 287);
   pwm.setPWM(8, 0, 287);
-
-  //오른쪽 뒷다리
   pwm.setPWM(9, 0, 287);
   pwm.setPWM(10, 0, 287);
-  pwm.setPWM(11, 0, 287);
+
+  //오른쪽 뒷다리
+  pwm.setPWM(12, 0, 287);
+  pwm.setPWM(13, 0, 287);
+  pwm.setPWM(14, 0, 287);
 
   
 
